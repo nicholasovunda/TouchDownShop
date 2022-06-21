@@ -25,5 +25,6 @@ struct FeaturedTabView_Previews: PreviewProvider {
         FeaturedTabView()
             .previewDevice("iPhone 12 Pro")
             .background(Color.gray)
+            
     }
 }
