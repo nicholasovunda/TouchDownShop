@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProductDetailView: View { 
       // MARK: - PROPERTY
-    
+    @EnvironmentObject var shop: Shop
     var body: some View {
           // MARK: - BODY
         VStack(alignment: .leading, spacing: 5, content:{
@@ -33,7 +33,7 @@ struct ProductDetailView: View {
                     .padding(.bottom, 10)
                 // DESCRIPTION
                 ScrollView(.vertical, showsIndicators: false, content: {
-                    Text(sampleProduct.description)
+                    Text(shop.selectedProducts?.description ?? sampleProduct.description)
                         .font(.system(.body, design: .rounded))
                         .foregroundColor(.gray)
                         .multilineTextAlignment(.leading)
@@ -55,17 +55,18 @@ struct ProductDetailView: View {
         .ignoresSafeArea(.all, edges: .all)
         .background(
         Color(
-            red: sampleProduct.red,
-            green: sampleProduct.green,
-            blue: sampleProduct.blue
-        )
+            red: shop.selectedProducts?.red ?? sampleProduct.red,
+            green: shop.selectedProducts?.green ?? sampleProduct.green,
+            blue: shop.selectedProducts?.blue ?? sampleProduct.blue
         ).ignoresSafeArea(.all, edges: .all)
+        )
     }
 }
   // MARK: - PREVIEW
 struct ProductDetailView_Previews: PreviewProvider {
     static var previews: some View {
         ProductDetailView()
+            .environmentObject(Shop())
             .previewLayout(.fixed(width: 375, height: 812))
     }
 }

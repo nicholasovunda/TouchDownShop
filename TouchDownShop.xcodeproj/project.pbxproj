@@ -41,6 +41,7 @@
 		E1693DC7286232FC00C32B81 /* RatingSizesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1693DC6286232FC00C32B81 /* RatingSizesDetailView.swift */; };
 		E1693DC92862391300C32B81 /* QuantityFavouriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1693DC82862391300C32B81 /* QuantityFavouriteDetailView.swift */; };
 		E1693DCB28623DC000C32B81 /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1693DCA28623DC000C32B81 /* AddToCartDetailView.swift */; };
+		E1693DCD2862412A00C32B81 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1693DCC2862412A00C32B81 /* Shop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		E1693DC6286232FC00C32B81 /* RatingSizesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingSizesDetailView.swift; sourceTree = "<group>"; };
 		E1693DC82862391300C32B81 /* QuantityFavouriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityFavouriteDetailView.swift; sourceTree = "<group>"; };
 		E1693DCA28623DC000C32B81 /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
+		E1693DCC2862412A00C32B81 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 			children = (
 				E116B27B28610366009AD6BA /* Constants.swift */,
 				E1693DC42862307300C32B81 /* CustomShape.swift */,
+				E1693DCC2862412A00C32B81 /* Shop.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				E116B28A2861A808009AD6BA /* FeaturedTabView.swift in Sources */,
 				E1693DC52862307300C32B81 /* CustomShape.swift in Sources */,
 				E116B2842861A3B0009AD6BA /* PlayerModel.swift in Sources */,
+				E1693DCD2862412A00C32B81 /* Shop.swift in Sources */,
 				E116B29C2861FB59009AD6BA /* BrandModel.swift in Sources */,
 				E116B2962861F361009AD6BA /* TitleView.swift in Sources */,
 				E1693DC92862391300C32B81 /* QuantityFavouriteDetailView.swift in Sources */,
