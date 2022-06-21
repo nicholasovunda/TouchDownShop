@@ -39,6 +39,7 @@ struct ContentView: View {
                             .frame(height: 240.0)
                         
                         CategoryGridView()
+                        
                         TitleView(title: "Helmet")
                         
                         LazyVGrid(columns: gridLayout, spacing: 15, content: {
