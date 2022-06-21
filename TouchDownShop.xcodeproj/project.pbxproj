@@ -19,6 +19,10 @@
 		E116B27E28610501009AD6BA /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E116B27D28610501009AD6BA /* FooterView.swift */; };
 		E116B28028610B28009AD6BA /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E116B27F28610B28009AD6BA /* NavigationBarView.swift */; };
 		E116B28228610D21009AD6BA /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E116B28128610D21009AD6BA /* LogoView.swift */; };
+		E116B2842861A3B0009AD6BA /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E116B2832861A3B0009AD6BA /* PlayerModel.swift */; };
+		E116B2862861A413009AD6BA /* CodableBundleExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E116B2852861A413009AD6BA /* CodableBundleExtention.swift */; };
+		E116B2882861A72B009AD6BA /* FeatureItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E116B2872861A72B009AD6BA /* FeatureItemView.swift */; };
+		E116B28A2861A808009AD6BA /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E116B2892861A808009AD6BA /* FeaturedTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		E116B27D28610501009AD6BA /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		E116B27F28610B28009AD6BA /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		E116B28128610D21009AD6BA /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		E116B2832861A3B0009AD6BA /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		E116B2852861A413009AD6BA /* CodableBundleExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtention.swift; sourceTree = "<group>"; };
+		E116B2872861A72B009AD6BA /* FeatureItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureItemView.swift; sourceTree = "<group>"; };
+		E116B2892861A808009AD6BA /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +129,11 @@
 		E116B27628610290009AD6BA /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E116B28128610D21009AD6BA /* LogoView.swift */,
 				E116B27D28610501009AD6BA /* FooterView.swift */,
 				E116B27F28610B28009AD6BA /* NavigationBarView.swift */,
+				E116B2872861A72B009AD6BA /* FeatureItemView.swift */,
+				E116B2892861A808009AD6BA /* FeaturedTabView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -137,7 +148,6 @@
 		E116B278286102A5009AD6BA /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				E116B28128610D21009AD6BA /* LogoView.swift */,
 				E116B27B28610366009AD6BA /* Constants.swift */,
 			);
 			path = Utility;
@@ -146,6 +156,7 @@
 		E116B279286102AC009AD6BA /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				E116B2852861A413009AD6BA /* CodableBundleExtention.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -153,6 +164,7 @@
 		E116B27A286102BB009AD6BA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E116B2832861A3B0009AD6BA /* PlayerModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -231,12 +243,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E116B2882861A72B009AD6BA /* FeatureItemView.swift in Sources */,
 				E116B25F2860FC72009AD6BA /* ContentView.swift in Sources */,
+				E116B2862861A413009AD6BA /* CodableBundleExtention.swift in Sources */,
 				E116B28228610D21009AD6BA /* LogoView.swift in Sources */,
 				E116B27E28610501009AD6BA /* FooterView.swift in Sources */,
 				E116B25D2860FC72009AD6BA /* TouchDownShopApp.swift in Sources */,
 				E116B27C28610366009AD6BA /* Constants.swift in Sources */,
 				E116B28028610B28009AD6BA /* NavigationBarView.swift in Sources */,
+				E116B28A2861A808009AD6BA /* FeaturedTabView.swift in Sources */,
+				E116B2842861A3B0009AD6BA /* PlayerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
